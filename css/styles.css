@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
+    background-color: #f4f6f7;   /* NEW */
 }
 
 header {
@@ -40,6 +41,10 @@ nav a {
     padding: 15px;
     width: 220px;
     text-align: center;
+    background-color: white;        /* NEW */
+    border-radius: 8px;             /* NEW */
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);   /* NEW */
+
 }
 
 .price {
@@ -53,6 +58,9 @@ nav a {
     padding: 8px;
     border: none;
     cursor: pointer;
+        border-radius: 5px;      /* NEW */
+    transition: 0.3s;        /* NEW */
+
 }
 
 footer {
@@ -133,4 +141,12 @@ footer {
     margin-top: 30px;
     font-size: 14px;
     letter-spacing: 1px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+.add-btn:hover {
+    background-color: #1a252f;
 }
