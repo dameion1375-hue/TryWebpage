@@ -9,3 +9,4 @@ buttons.forEach(function(button) {
         cartDisplay.textContent = cartCount;
     });
 });
+
